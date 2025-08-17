@@ -1,0 +1,72 @@
+/* Ca.css */
+
+:root {
+
+    /* Background Colors */
+    --bg0: #d9d9f3;
+    --bg1: #d2d2e6;
+    --bg2: #c1c1d1;
+    --bg3: #adadbe;
+    --bg4: #8a8a9e;
+
+
+    /* Main Colors */
+    --prim: #adbef1;
+    --scnd: #6b7ba7;
+    --tirt: #31364e;
+
+    /* Text */
+    --tch1: var(--lblu);
+    --tch2: var(--mblu);
+    --tch3: var(--dblu);
+    --tch4: var(--ndgo);
+    --tch5: var(--prpl);
+    --tcpc: var(--prim);
+    --tcbc: var(--orng);
+    --tcic: var(--lblu);
+
+    /* 16-Bit Color + Monochrome B/W */
+
+    --redd: #e47b7b;
+    --rorg: #f0886e;
+    --orng: #ec975e;
+    --gold: #f0be60;
+    --yllo: #e6df7e;
+    --lime: #cbf172;
+    --gren: #94dd7e;
+    --tqus: #6fd8a3;
+    --cyan: #63e4dd;
+    --lblu: #7cc4e0;
+    --mblu: #799de9;
+    --dblu: #636bd8;
+    --ndgo: #515aad;
+    --vilt: #4b3b92;
+    --prpl: #642f96;
+    --mgnt: #89299c;
+    --blck: #111111;
+    --whte: #e4e7ee;
+
+    /* Component Colors */
+
+    /* - Sidebar */
+    --sbbg: var(--bg1);
+    --sbbd: transparent;
+    --sbic: var(--prim);
+
+    /* Card */
+    --cdbg: var(--bg3);
+    --cdbd: transparent;
+    --cdsd: --blck;
+}
+
+:darkMode {
+    --bg0: #14141d;
+    --bg1: #20232e;
+    --bg2: #2d2f44;
+    --bg3: #424268;
+    --bg4: #55557c;
+
+    --prim: #f5dccd;
+    --scnd: #50608b;
+    --tirt: #b7bbcf;
+}
