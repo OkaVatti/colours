@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Mono&display=swap);
+
+@import url(./theme.css);
+
+* {
+    font-family: 'PT Mono', monospace;
+}
+
+body {
+    background-color: var(--bg0);
+    min-height: 100vh;
+    max-height: 99vh;
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+
+h1 {
+    color: var(--tch1);
+    background-color: var(--bg1);
+    padding: 1rem;
+    width: fit-content;
+    border: solid 3px;
+    box-shadow: 8px 8px var(--bg4);
+}
+
+h2 {
+    color: var(--tch2);
+    background-color: var(--prim);
+    padding: 1rem;
+    width: fit-content;
+    border: solid 3px
+}
+
+h3 {
+    color: var(--tch3);
+    background-color: var(--tirt);
+    padding: 1rem;
+    width: fit-content;
+    border: solid 3px
+}
+
+h4 {
+    color: var(--tch4);
+    background-color: var(--bg1);
+    padding: 1rem;
+    width: fit-content;
+    border: solid 3px
+}
+
+h5 {
+    color: var(--tch5);
+    background-color: var(--bg1);
+    padding: 1rem;
+    width: fit-content;
+    border: solid 3px
+}
+
+.sbContainer {
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.sidebar {
+    background-color: var(--bg2);
+    border: solid 2px var(--bg4);
+}
+
+.pageList {
+    list-style: none;
+    margin: 0.1rem;
+    padding: 1.5rem;
+}
+
+.pageListItem {
+    border: solid 2px;
+    margin-bottom: 0.75em;
+    padding: 0.2em;
+    line-height: 80%;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 4px 4px var(--bg4);
+    border-radius: 8px;
+}
+
+.pageListItem:hover {
+    background: var(--prim);
+    scale: 110%;
+}
+
+.SettingsMenu {
+    padding: 0.2em;
+    line-height: 80%;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: 0rem;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 4px 4px var(--bg4);
+    border-radius: 8px;
+}
+
+.SettingsMenu:hover {
+    border: solid 2px;
+    background: var(--scnd);
+    scale: 110%;
+}
